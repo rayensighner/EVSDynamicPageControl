@@ -39,7 +39,7 @@
 }
 
 -(UIView*) initialPageControlView:(CGRect)frame VisibleAreaPoint:(CGFloat)visibleAreaPoint DotRadiusSize:(CGFloat)dotRadiusSize DotColor:(UIColor*)dotColor StartPosition:(CGFloat) startPosition TotalPoints:(NSUInteger)totalPoints{
-    
+    //123
     _pageControllerUnderViewFrame = frame;
     _visibleAreaP                 = visibleAreaPoint;
     _totalP                       = totalPoints;
