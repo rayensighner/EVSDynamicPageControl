@@ -45,8 +45,8 @@
     [self firstPageSetting];
     
     //init page control view by setting 
-    UIView* pcView = [[EdeePageControl EPageControlShareInstance] initialPageControlView:CGRectMake(0, self.view.frame.size.height-10, self.view.frame.size.width, 10) VisibleAreaPoint:10 DotRadiusSize:10 DotColor:[UIColor greenColor] StartPosition:5 TotalPoints:_count];
-        
+    UIView* pcView = [[EdeePageControl EPageControlShareInstance] initialPageControlView:CGRectMake(0, self.view.frame.size.height-10, self.view.frame.size.width, 10) VisibleAreaPoint:10 DotRadiusSize:10 DotColor:[UIColor redColor] StartPosition:5 TotalPoints:_count];
+    self.view.backgroundColor = [UIColor blackColor];
     [self.view addSubview:pcView];
 }
 
